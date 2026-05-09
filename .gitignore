@@ -8,12 +8,14 @@ yarn.lock
 pnpm-lock.yaml
 
 # Build output
+.next/
 dist/
 build/
 *.js
 *.js.map
 *.d.ts
 !*.config.js
+!next.config.ts
 
 # Environment variables
 .env
